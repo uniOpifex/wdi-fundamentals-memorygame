@@ -34,6 +34,10 @@ a {
   font-weight: 600;
   letter-spacing: .06em;
   margin: 0 20px;
+  border-bottom: 2px solid transparent;
+}
+a:hover { 
+    background-color: rgba(0, 0, 25, 0.5);;
 }
 
 
@@ -41,6 +45,16 @@ a {
 header {
   background-color: #F15B31;
   padding: 30px 20px;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 20px 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
 }
 
 
@@ -59,4 +73,20 @@ main {
 
 img {
   margin: 40px 8px 0;
+}
+
+.copyright {
+	float: left
+}
+
+.message {
+	float: right;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
